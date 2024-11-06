@@ -1,0 +1,94 @@
+2024-11-06 12:44:48,270 - Log file for this run: C:\Users\Awe\Desktop\COE187_Training\ai8x-training\logs\2024.11.06-124448\2024.11.06-124448.log
+2024-11-06 12:44:50,925 - Optimizer Type: <class 'torch.optim.adam.Adam'>
+2024-11-06 12:44:50,925 - Optimizer Args: {'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0.0, 'amsgrad': False}
+2024-11-06 12:44:55,169 - Dataset sizes:
+	training=72000
+	validation=8000
+	test=5000
+2024-11-06 12:44:55,174 - Reading compression schedule from: policies/schedule-catsdogs.yaml
+2024-11-06 12:44:55,220 - 
+
+2024-11-06 12:44:55,223 - Training epoch: 72000 samples (256 per mini-batch)
+2024-11-06 13:17:03,059 - Epoch: [0][  282/  282]    Overall Loss 0.587823    Objective Loss 0.587823    Top1 71.875000    LR 0.001000    Time 6.836176    
+2024-11-06 13:17:04,940 - --- validate (epoch=0)-----------
+2024-11-06 13:17:04,940 - 8000 samples (256 per mini-batch)
+2024-11-06 13:18:52,138 - Epoch: [0][   32/   32]    Loss 0.526532    Top1 73.162500    
+2024-11-06 13:18:53,764 - ==> Top1: 73.162    Loss: 0.527
+
+2024-11-06 13:18:53,774 - ==> Confusion:
+[[2279 1602]
+ [ 545 3574]]
+
+2024-11-06 13:18:54,554 - ==> Best [Top1: 73.162   Sparsity:0.00   Params: 57776 on epoch: 0]
+2024-11-06 13:18:54,554 - Saving checkpoint to: logs\2024.11.06-124448\checkpoint.pth.tar
+2024-11-06 13:18:54,597 - 
+
+2024-11-06 13:18:54,597 - Training epoch: 72000 samples (256 per mini-batch)
+2024-11-06 13:48:55,870 - Epoch: [1][  282/  282]    Overall Loss 0.472546    Objective Loss 0.472546    Top1 83.125000    LR 0.001000    Time 6.387469    
+2024-11-06 13:48:57,749 - --- validate (epoch=1)-----------
+2024-11-06 13:48:57,752 - 8000 samples (256 per mini-batch)
+2024-11-06 13:50:43,685 - Epoch: [1][   32/   32]    Loss 0.433879    Top1 80.287500    
+2024-11-06 13:50:45,453 - ==> Top1: 80.287    Loss: 0.434
+
+2024-11-06 13:50:45,453 - ==> Confusion:
+[[3004  877]
+ [ 700 3419]]
+
+2024-11-06 13:50:45,667 - ==> Best [Top1: 80.287   Sparsity:0.00   Params: 57776 on epoch: 1]
+2024-11-06 13:50:45,667 - Saving checkpoint to: logs\2024.11.06-124448\checkpoint.pth.tar
+2024-11-06 13:50:45,712 - 
+
+2024-11-06 13:50:45,713 - Training epoch: 72000 samples (256 per mini-batch)
+2024-11-06 14:18:14,210 - Epoch: [2][  282/  282]    Overall Loss 0.403321    Objective Loss 0.403321    Top1 84.687500    LR 0.001000    Time 5.845687    
+2024-11-06 14:18:15,396 - --- validate (epoch=2)-----------
+2024-11-06 14:18:15,397 - 8000 samples (256 per mini-batch)
+2024-11-06 14:20:04,224 - Epoch: [2][   32/   32]    Loss 0.412633    Top1 80.975000    
+2024-11-06 14:20:06,004 - ==> Top1: 80.975    Loss: 0.413
+
+2024-11-06 14:20:06,006 - ==> Confusion:
+[[3540  341]
+ [1181 2938]]
+
+2024-11-06 14:20:06,183 - ==> Best [Top1: 80.975   Sparsity:0.00   Params: 57776 on epoch: 2]
+2024-11-06 14:20:06,184 - Saving checkpoint to: logs\2024.11.06-124448\checkpoint.pth.tar
+2024-11-06 14:20:06,215 - 
+
+2024-11-06 14:20:06,215 - Training epoch: 72000 samples (256 per mini-batch)
+2024-11-06 14:47:42,406 - Epoch: [3][  282/  282]    Overall Loss 0.356811    Objective Loss 0.356811    Top1 87.187500    LR 0.001000    Time 5.873011    
+2024-11-06 14:47:43,596 - --- validate (epoch=3)-----------
+2024-11-06 14:47:43,596 - 8000 samples (256 per mini-batch)
+2024-11-06 14:49:28,239 - Epoch: [3][   32/   32]    Loss 0.341474    Top1 84.875000    
+2024-11-06 14:49:29,928 - ==> Top1: 84.875    Loss: 0.341
+
+2024-11-06 14:49:29,938 - ==> Confusion:
+[[3408  473]
+ [ 737 3382]]
+
+2024-11-06 14:49:30,207 - ==> Best [Top1: 84.875   Sparsity:0.00   Params: 57776 on epoch: 3]
+2024-11-06 14:49:30,207 - Saving checkpoint to: logs\2024.11.06-124448\checkpoint.pth.tar
+2024-11-06 14:49:30,248 - 
+
+2024-11-06 14:49:30,249 - Training epoch: 72000 samples (256 per mini-batch)
+2024-11-06 15:16:54,284 - Epoch: [4][  282/  282]    Overall Loss 0.314373    Objective Loss 0.314373    Top1 86.562500    LR 0.001000    Time 5.829866    
+2024-11-06 15:16:55,429 - --- validate (epoch=4)-----------
+2024-11-06 15:16:55,430 - 8000 samples (256 per mini-batch)
+2024-11-06 15:18:38,717 - Epoch: [4][   32/   32]    Loss 0.323227    Top1 85.712500    
+2024-11-06 15:18:40,426 - ==> Top1: 85.713    Loss: 0.323
+
+2024-11-06 15:18:40,441 - ==> Confusion:
+[[3285  596]
+ [ 547 3572]]
+
+2024-11-06 15:18:40,706 - ==> Best [Top1: 85.713   Sparsity:0.00   Params: 57776 on epoch: 4]
+2024-11-06 15:18:40,707 - Saving checkpoint to: logs\2024.11.06-124448\checkpoint.pth.tar
+2024-11-06 15:18:40,739 - --- test ---------------------
+2024-11-06 15:18:40,740 - 5000 samples (256 per mini-batch)
+2024-11-06 15:19:59,246 - Test: [   20/   20]    Loss 0.310353    Top1 86.260000    
+2024-11-06 15:20:00,306 - ==> Top1: 86.260    Loss: 0.310
+
+2024-11-06 15:20:00,308 - ==> Confusion:
+[[2078  422]
+ [ 265 2235]]
+
+2024-11-06 15:20:00,334 - 
+2024-11-06 15:20:00,335 - Log file for this run: C:\Users\Awe\Desktop\COE187_Training\ai8x-training\logs\2024.11.06-124448\2024.11.06-124448.log

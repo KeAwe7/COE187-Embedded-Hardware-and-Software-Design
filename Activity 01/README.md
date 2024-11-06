@@ -1,6 +1,4 @@
-# Maxim Software Development Kit (MaximSDK)
-
-MaximSDK Installation
+# Activity 01 MaximSDK Installation
 
 1. MaximSDK Installation Screenshot
 

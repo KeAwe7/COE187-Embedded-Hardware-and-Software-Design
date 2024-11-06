@@ -9,7 +9,7 @@ Topics Covered
 - Embedded System Design
 - Embedded System Design and Development
 - Maxim Software Development Kit (MaximSDK)
-- MaximSDK Installation Assignment
+- [MaximSDK Installation Assignment](./Activity%2001/)
 - Machine Learning on the Edge
 - Ai8x Installation
 - Cats Dogs Training

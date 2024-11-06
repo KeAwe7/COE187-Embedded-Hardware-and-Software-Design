@@ -12,7 +12,7 @@ Topics Covered
 - [MaximSDK Installation Assignment](./Activity%2001/)
 - Machine Learning on the Edge
 - Ai8x Installation
-- Cats Dogs Training
+- [Cats Dogs Training](./Activity%2002/)
 - Keyword Spotting (KWS) Assignment
 - Zephyr OS
 - Zephyr OS Device Driver

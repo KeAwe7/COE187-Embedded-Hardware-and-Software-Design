@@ -6,5 +6,5 @@ MaximSDK Installation
 
 ![MaximSDK-Screenshot](images/MaximSDK-Screenshot.png)
   
-2. [Blinking LED Activity](./filename.extension)
+2. [Blinking LED Activity](LED/main.c)
 

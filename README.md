@@ -12,6 +12,8 @@ Topics Covered
 - [MaximSDK Installation Assignment](./Activity%2001/)
 - Machine Learning on the Edge
 - Ai8x Installation
+  - Training https://github.com/KeAwe7/ai8x-training
+  - Synthesis https://github.com/KeAwe7/ai8x-synthesis
 - [Cats Dogs Training](./Activity%2002/)
 - Keyword Spotting (KWS) Assignment
 - Zephyr OS

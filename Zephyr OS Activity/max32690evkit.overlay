@@ -1,0 +1,48 @@
+/ {
+    leds {
+        compatible = "gpio-leds";
+        led_seq_0: led_seq_0 {
+            gpios = <&gpio1 7 (GPIO_ACTIVE_HIGH | MAX32_GPIO_VSEL_VDDIOH)>;
+            label = "LED_SEQ_0";
+        };
+        led_seq_1: led_seq_1 {
+            gpios = <&gpio1 8 (GPIO_ACTIVE_HIGH | MAX32_GPIO_VSEL_VDDIOH)>;
+            label = "LED_SEQ_1";
+        };
+        led_seq_2: led_seq_2 {
+            gpios = <&gpio1 9 (GPIO_ACTIVE_HIGH | MAX32_GPIO_VSEL_VDDIOH)>;
+            label = "LED_SEQ_2";
+        };
+        led_seq_3: led_seq_3 {
+            gpios = <&gpio1 10 (GPIO_ACTIVE_HIGH | MAX32_GPIO_VSEL_VDDIOH)>;
+            label = "LED_SEQ_3";
+        };
+        led_seq_4: led_seq_4 {
+            gpios = <&gpio0 7 (GPIO_ACTIVE_HIGH | MAX32_GPIO_VSEL_VDDIOH)>;
+            label = "LED_SEQ_4";
+        };
+        led_seq_5: led_seq_5 {
+            gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | MAX32_GPIO_VSEL_VDDIOH)>;
+            label = "LED_SEQ_5";
+        };
+        led_seq_6: led_seq_6 {
+            gpios = <&gpio0 9 (GPIO_ACTIVE_HIGH | MAX32_GPIO_VSEL_VDDIOH)>;
+            label = "LED_SEQ_6";
+        };
+        led_seq_7: led_seq_7 {
+            gpios = <&gpio0 14 (GPIO_ACTIVE_HIGH | MAX32_GPIO_VSEL_VDDIOH)>;
+            label = "LED_SEQ_7";
+        };
+    };
+
+    aliases {
+        led-seq-0 = &led_seq_0;
+        led-seq-1 = &led_seq_1;
+        led-seq-2 = &led_seq_2;
+        led-seq-3 = &led_seq_3;
+        led-seq-4 = &led_seq_4;
+        led-seq-5 = &led_seq_5;
+        led-seq-6 = &led_seq_6;
+        led-seq-7 = &led_seq_7;
+    };
+};

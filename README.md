@@ -16,6 +16,6 @@ Topics Covered
   - Synthesis https://github.com/KeAwe7/ai8x-synthesis
 - [Cats Dogs Training](./Activity%2002/)
 - Keyword Spotting (KWS) Assignment
-- Zephyr OS
+- [Zephyr OS](./Zephyr%20OS%20Activity)
 - Zephyr OS Device Driver
 - The Final Phases of Embedded Design
